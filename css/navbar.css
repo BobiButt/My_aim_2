@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    background-color: black;
+}
+#navLinks.open{
+    display: block;
+   position: absolute;
+   top: 70px;
+   width: 100%;
+   background-color: rgb(0,0,0,0.4);
+    /* background-color: black; */
+    transition: all 2s ease-in-out;
+/* background-color: blanchedalmond; */
+}
+#navLinks.arr{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center; 
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+}
+nav{
+display: flex;
+justify-content: space-around;
+/* background-color: aqua; */
+align-items: center;
+}
+.logo{
+    display: flex;
+    }
+    .logo i{
+        
+    }
+.logo li{
+    list-style: none;
+    padding: 20px 0px 20px 20px;
+    font-size: 4vh;
+}
+#navLinks{
+display: flex;
+}
+#navLinks li{
+list-style: none;
+padding: 20px;
+font-size: 3vh;
+
+}
+#navLinks a{
+    text-decoration: none;
+    color: white;
+}
+#navLinks a:hover{
+    color: red;
+}
+.select{
+    cursor: pointer;
+}
+.select:hover{
+    color: red;
+}
+#selection{
+    display: none;
+    border-radius: 5px;
+background-color: rgb(0, 0, 0, 0.2);
+}
+#selection div{
+    padding: 15px;
+}
+#selection.selects{
+    display: block;
+    position: absolute;
+    top: 70px;
+    /* width: 100%; */
+    /* background-color: rgb(0,0,0,0.4); */
+    /* background-color: black; */
+    transition: all 2s ease-in-out;
+}
+/* #navLinks select{
+   
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 3vh;
+   
+}
+.select-selected{
+
+}
+#navLinks select:focus{
+    outline: none;
+}
+#navLinks select:hover{
+    color: red;
+}
+#navLinks select option{
+    background-color: rgb(0, 0, 0, 0.8);
+    border:0px 0px 1px 0px solid white;
+    
+}
+#navLinks select option p{
+padding: 10px;
+} */
+.contact{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
+#burger{
+    display:none ;
+
+}
+#burger div{
+    height: 4px;
+    width: 30px;
+    margin: 5px;
+    background-color: white;
+}
