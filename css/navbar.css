@@ -56,12 +56,16 @@ font-size: 3vh;
 #navLinks a{
     text-decoration: none;
     color: white;
+    transition: all 0.5s ease;
+
 }
 #navLinks a:hover{
     color: red;
 }
 .select{
     cursor: pointer;
+    transition: all 0.5s ease;
+
 }
 .select:hover{
     color: red;
@@ -109,10 +113,11 @@ background-color: rgb(0, 0, 0, 0.2);
 padding: 10px;
 } */
 .contact{
-    border: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 10px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     background-color: transparent;
+    transition: all 0.5s ease;
 }
 .contact:hover{
     background-color: black;
